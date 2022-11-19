@@ -1,6 +1,8 @@
-package org.example.model;
+package org.example.superclass;
 
-public class Person {
+import org.example.interfaces.*;
+
+public class Person implements Actions{
 
     //attributes
     public int id;
@@ -35,5 +37,14 @@ public class Person {
         System.out.println("My name is " + this.name);
     }
 
+    @Override
+    public void goToSomewhere(String location) {
+        System.out.println("I go to " + location);
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("I am going to sleep now.");
+    }
 }
 
