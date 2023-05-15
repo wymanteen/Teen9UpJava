@@ -1,6 +1,5 @@
 # Teen9UpJava
-* Java
-* https://www.w3schools.com/java/default.asp
+* Java: https://www.w3schools.com/java/default.asp
 
 * Added TypeScript + React Example of object type validation
 e.g.1. Apply TypeScript Interface to React Component
