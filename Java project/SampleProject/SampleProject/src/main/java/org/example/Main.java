@@ -10,6 +10,9 @@ public class Main {
 
         //Create a Person obj
         Person p1 = new Person(0, "John", "UK");
+        System.out.println(p1.getName());
+        p1.setName("John M.");
+        System.out.println(p1.getName());
         p1.printMyName();
 
         //Create a Staff obj
